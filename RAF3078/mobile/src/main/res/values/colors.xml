@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="color_preloader_start" type="color">#000000</item>
+    <item name="color_preloader_center" type="color">#000000</item>
+    <item name="color_preloader_end" type="color">#ff56a9c7</item>
+    <item name="back_color" type="color">#000000</item>
+    <item name="tab_color" type="color">#c7c7c7</item>
+</resources>

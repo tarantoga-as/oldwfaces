@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Common</string>
+
+    <string name="fs_bold">BOLD</string>
+    <string name="fs_bold_italic">BOLD_ITALIC</string>
+    <string name="fs_italic">ITALIC</string>
+    <string name="bend_round_ac">Round, sub-dial A center</string>
+    <string name="bend_round_bc">Round, sub-dial B center</string>
+    <string name="bend_round_cc">Round, sub-dial C center</string>
+    <string name="bend_round_mc">Round, main dial center</string>
+    <string name="bend_straight">None, straight</string>
+    <string name="dir_ccw">Counter clockwise</string>
+    <string name="dir_cw">Clockwise</string>
+    <string name="fs_normal">NORMAL</string>
+    <string name="fx_deboss">Deboss</string>
+    <string name="fx_emboss">Emboss</string>
+    <string name="fx_none">None</string>
+    <string name="fx_shadow_dark">Blurred shadow dark</string>
+    <string name="fx_shadow_light">Blurred shadow light</string>
+</resources>

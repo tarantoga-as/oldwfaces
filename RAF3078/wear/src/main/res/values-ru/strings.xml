@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RAF3078</string>
+    <string name="fit_in_toast">Адаптация…</string>
+    <string name="elm_time_source">TZ часов</string>
+    <string name="elm_tz_hemisphere">TZ полусфера</string>
+    <string name="elm_sweep_seconds">Секунды непрерывно</string>
+    <string name="elm_phone_battery">Батарея телефона</string>
+    <string name="elm_burn_in_margin">Защита от выгорания</string>
+    <string name="handheld_battery_hide">скрыть</string>
+    <string name="handheld_battery_show">показать</string>
+    <string name="watch_tz_hemisphere_lower">нижняя</string>
+    <string name="watch_tz_hemisphere_upper">верхняя</string>
+    <string name="watch_tz_source_device">устройство</string>
+    <string name="watch_tz_source_utc">UTC</string>
+    <string name="word_off">выкл.</string>
+    <string name="word_on">вкл.</string>
+    <string name="elements_list_title">Настройки</string>
+</resources>

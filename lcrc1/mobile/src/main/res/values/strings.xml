@@ -1,0 +1,4 @@
+<resources>
+    <!--string name="app_name">Light And Classics</string-->
+    <string name="config_intent_filter_action">com.luna_78.lightandclassics.CONFIG</string>
+</resources>

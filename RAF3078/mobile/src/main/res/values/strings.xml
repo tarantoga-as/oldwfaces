@@ -1,0 +1,386 @@
+<resources>
+    <string name="app_name">RAF3078</string>
+
+    <string name="watchface_service_running">7</string>
+    <string name="confirm_reset_to_defaults_title">Confirm reset all settings</string>
+    <string name="confirm_reset_to_defaults_message">Please confirm to reset all settings to defaults</string>
+    <string name="string_ok">OK</string>
+    <string name="string_cancel">Cancel</string>
+    <string name="title_activity_handheld_companion_config">HandheldCompanionConfigActivity</string>
+    <string name="tab_layout">Layout</string>
+    <string name="tab_settings">Settings</string>
+    <string name="tab_collection">Collection</string>
+    <!--string name="configFileName">airforceru.cfg</string-->
+    <string name="configFileName">layoutspalette.hex</string>
+
+    <string name="confirm_add_or_replace_title">Confirm operation for watch face collection</string>
+    <string name="confirm_add_or_replace_message">Please confirm to add or replace current watch face collection with arrived one</string>
+    <string name="string_add">ADD</string>
+    <string name="string_replace">REPLACE</string>
+
+    <!--
+    -->
+
+
+    <string-array name="layout_element_name">
+        <item>@string/CFG_MAIN_DIGITS_COLOR</item>                          <!-- 0 -->
+        <item>@string/CFG_MAIN_HOURHAND_COLOR</item>                        <!-- 1 -->
+        <item>@string/CFG_MAIN_MINUTEHAND_COLOR</item>                      <!-- 2 -->
+        <item>@string/CFG_MAIN_BACKGROUND_COLOR</item>                      <!-- 3 -->
+        <item>@string/CFG_MAIN_MAINHANDS_COLOR</item>                       <!-- 4 -->
+        <item>@string/CFG_MAIN_SECONDSHAND_COLOR</item>                     <!-- 5 -->
+        <item>@string/CFG_MAIN_DOMBACK_COLOR</item>                         <!-- 6 -->
+        <item>@string/CFG_MAIN_DOMFRONT_COLOR</item>                        <!-- 7 -->
+        <item>@string/CFG_MAIN_TICK_COLOR</item>                            <!-- 8 -->
+        <item>@string/CFG_MAIN_TICKDIGIT_COLOR</item>                       <!-- 9 -->
+        <item>@string/CFG_MAIN_BIGAUX_BACKGROUND_COLOR</item>               <!-- 10 -->
+        <item>@string/CFG_MAIN_BIGAUX_DIGITS_COLOR</item>                   <!-- 11 -->
+        <item>@string/CFG_MAIN_BIGAUX_TICKS_COLOR</item>                    <!-- 12 -->
+        <item>@string/CFG_MAIN_SMALLAUX_BACKGROUND_COLOR</item>             <!-- 13 -->
+        <item>@string/CFG_MAIN_SMALLAUX_DIGITS_COLOR</item>                 <!-- 14 -->
+        <item>@string/CFG_MAIN_SMALLAUX_TICKS1_COLOR</item>                 <!-- 15 -->
+        <item>@string/CFG_MAIN_SMALLAUX_TICKS2_COLOR</item>                 <!-- 16 -->
+        <item>@string/CFG_MAIN_AUXHANDS_WEEKDAY_COLOR</item>                <!-- 17 -->
+        <item>@string/CFG_MAIN_AUXHANDS_WEARBATT_COLOR</item>               <!-- 18 -->
+        <item>@string/CFG_MAIN_AUXHANDS_PHONEBATT_COLOR</item>              <!-- 19 -->
+        <item>@string/CFG_MAIN_AUXHANDS_MONTH_COLOR</item>                  <!-- 20 -->
+        <item>@string/CFG_AMBIENT_DIGITS_COLOR</item>                       <!-- 21 -->
+        <item>@string/CFG_AMBIENT_HOURHAND_COLOR</item>                     <!-- 22 -->
+        <item>@string/CFG_AMBIENT_MINUTEHAND_COLOR</item>                   <!-- 23 -->
+        <item>@string/CFG_AMBIENT_TICK_COLOR</item>                         <!-- 24 -->
+        <item>@string/CFG_AMBIENT_TICKDIGIT_COLOR</item>                    <!-- 25 -->
+        <item>@string/CFG_AMBIENT_DOM_AUXHANDS_COLOR</item>                 <!-- 26 -->
+        <item>@string/CFG_AMBIENT_DECORUPPER_COLOR</item>                   <!-- 27 -->
+        <item>@string/CFG_MAIN_DECORUPPER_COLOR</item>                      <!-- 28 -->
+        <item>@string/CFG_MAIN_HOURMARK_OUTLINE_COLOR</item>                <!-- 29 -->
+        <item>@string/CFG_MAIN_DOM_FRAME_COLOR</item>                       <!-- 30 -->
+        <item>@string/CFG_AMBIENT_DOMBACK_COLOR</item>                      <!-- 31 -->
+        <item>@string/CFG_AMBIENT_DOMFRONT_COLOR</item>                     <!-- 32 -->
+        <item>@string/CFG_AMBIENT_AUXHANDS_COLOR</item>                     <!-- 33 -->
+        <item>@string/CFG_AMBIENT_DOM_FRAME_COLOR</item>                    <!-- 34 -->
+        <item>@string/CFG_AMBIENT_TZ_SCRIPTS_COLOR</item>                               <!-- 35 -->
+        <item>@string/CFG_AMBIENT_TZ_CIRCLES_COLOR</item>                               <!-- 36 -->
+        <item>@string/CFG_AMBIENT_TZ_SIGN_COLOR</item>                                  <!-- 37 -->
+        <item>@string/CFG_AMBIENT_TZ_POINT_COLOR</item>                                 <!-- 38 -->
+        <item>@string/EMPTY_COLOR_CELL</item>                               <!-- 39 -->
+        <item>@string/EMPTY_COLOR_CELL</item>                               <!-- 40 -->
+        <item>@string/EMPTY_COLOR_CELL</item>                               <!-- 41 -->
+        <item>@string/EMPTY_COLOR_CELL</item>                               <!-- 42 -->
+        <item>@string/EMPTY_COLOR_CELL</item>                               <!-- 43 -->
+        <item>@string/EMPTY_COLOR_CELL</item>                               <!-- 44 -->
+        <item>@string/EMPTY_COLOR_CELL</item>                               <!-- 45 -->
+        <item>@string/EMPTY_COLOR_CELL</item>                               <!-- 46 -->
+        <item>@string/EMPTY_COLOR_CELL</item>                               <!-- 47 -->
+        <item>@string/EMPTY_COLOR_CELL</item>                               <!-- 48 -->
+        <item>@string/EMPTY_COLOR_CELL</item>                               <!-- 49 -->
+        <item>@string/CFG_MAIN_INSCRIPTION_1_COLOR</item>                               <!-- 50 -->
+        <item>@string/CFG_MAIN_INSCRIPTION_2_COLOR</item>                               <!-- 51 -->
+        <item>@string/CFG_MAIN_INSCRIPTION_3_COLOR</item>                               <!-- 52 -->
+        <item>@string/CFG_MAIN_INSCRIPTION_4_COLOR</item>                               <!-- 53 -->
+        <item>@string/CFG_MAIN_INSCRIPTION_5_COLOR</item>                               <!-- 54 -->
+        <item>@string/CFG_MAIN_INSCRIPTION_6_COLOR</item>                               <!-- 55 -->
+        <item>@string/CFG_MAIN_INSCRIPTION_7_COLOR</item>                               <!-- 56 -->
+        <item>@string/EMPTY_COLOR_CELL</item>                               <!-- 57 -->
+        <item>@string/EMPTY_COLOR_CELL</item>                               <!-- 58 -->
+        <item>@string/EMPTY_COLOR_CELL</item>                               <!-- 59 -->
+        <item>@string/EMPTY_COLOR_CELL</item>                               <!-- 60 -->
+        <item>@string/CFG_MAIN_TZ_SCRIPTS_COLOR</item>                             <!-- 61 -->
+        <item>@string/CFG_MAIN_TZ_CIRCLES_COLOR</item>                             <!-- 62 -->
+        <item>@string/CFG_MAIN_TZ_SIGN_COLOR</item>                                <!-- 63 -->
+        <item>@string/CFG_MAIN_TZ_POINT_COLOR</item>                               <!-- 64 -->
+    </string-array>
+
+    <string name="screen_rotate_warning">Screen too small for landscape mode, sorry.</string>
+
+    <string name="EMPTY_COLOR_CELL">Empty color cell</string>
+    <string name="CFG_AMBIENT_DIGITS_COLOR">Ambient hour digits</string>
+    <string name="CFG_AMBIENT_DOM_AUXHANDS_COLOR">Ambient date background and sub-dials hands</string>
+    <string name="CFG_AMBIENT_HOURHAND_COLOR">Ambient hours hand inside</string>
+    <string name="CFG_AMBIENT_MINUTEHAND_COLOR">Ambient minutes hands inside</string>
+    <string name="CFG_AMBIENT_TICKDIGIT_COLOR">Ambient minute digits</string>
+    <string name="CFG_AMBIENT_TICK_COLOR">Ambient ticks and sub-dials digits</string>
+    <string name="CFG_AMBIENT_DECORUPPER_COLOR">Ambient decor upper</string>
+    <string name="CFG_MAIN_AUXHANDS_MONTH_COLOR">Small sub-dial hand 3</string>
+    <string name="CFG_MAIN_AUXHANDS_PHONEBATT_COLOR">Small sub-dial hand 2</string>
+    <string name="CFG_MAIN_AUXHANDS_WEARBATT_COLOR">Small sub-dial hand 1</string>
+    <string name="CFG_MAIN_AUXHANDS_WEEKDAY_COLOR">Big sub-dial hand</string>
+    <string name="CFG_MAIN_BACKGROUND_COLOR">Clock dial background</string>
+    <string name="CFG_MAIN_BIGAUX_BACKGROUND_COLOR">Big sub-dial background</string>
+    <string name="CFG_MAIN_BIGAUX_DIGITS_COLOR">Big sub-dial digits</string>
+    <string name="CFG_MAIN_BIGAUX_TICKS_COLOR">Big sub-dial ticks</string>
+    <string name="CFG_MAIN_DIGITS_COLOR">Hour marks</string>
+    <string name="CFG_MAIN_DOMBACK_COLOR">Date background</string>
+    <string name="CFG_MAIN_DOMFRONT_COLOR">Date digits</string>
+    <string name="CFG_MAIN_HOURHAND_COLOR">Hours hand inside</string>
+    <string name="CFG_MAIN_MAINHANDS_COLOR">Main hands border</string>
+    <string name="CFG_MAIN_MINUTEHAND_COLOR">Minutes hand inside</string>
+    <string name="CFG_MAIN_SECONDSHAND_COLOR">Seconds hand</string>
+    <string name="CFG_MAIN_SMALLAUX_BACKGROUND_COLOR">Small sub-dial background</string>
+    <string name="CFG_MAIN_SMALLAUX_DIGITS_COLOR">Small sub-dial digits</string>
+    <string name="CFG_MAIN_SMALLAUX_TICKS1_COLOR">Small sub-dial ticks 1</string>
+    <string name="CFG_MAIN_SMALLAUX_TICKS2_COLOR">Small sub-dial ticks 2 (critical)</string>
+    <string name="CFG_MAIN_TICKDIGIT_COLOR">Minute digits</string>
+    <string name="CFG_MAIN_TICK_COLOR">Minutes ticks</string>
+    <string name="CFG_MAIN_DECORUPPER_COLOR">Decor upper</string>
+    <string name="CFG_AMBIENT_DOMBACK_COLOR">Ambient date background</string>
+    <string name="CFG_AMBIENT_DOMFRONT_COLOR">Ambient date digits</string>
+    <string name="CFG_AMBIENT_AUXHANDS_COLOR">Ambient sub-dials hands</string>
+    <string name="CFG_MAIN_INSCRIPTION_1_COLOR">Inscription #1</string>
+    <string name="CFG_MAIN_INSCRIPTION_2_COLOR">Inscription #2</string>
+    <string name="CFG_MAIN_INSCRIPTION_3_COLOR">Inscription #3</string>
+    <string name="CFG_MAIN_INSCRIPTION_4_COLOR">Inscription #4</string>
+    <string name="CFG_MAIN_INSCRIPTION_5_COLOR">Inscription #5</string>
+    <string name="CFG_MAIN_INSCRIPTION_6_COLOR">Inscription #6</string>
+    <string name="CFG_MAIN_INSCRIPTION_7_COLOR">Inscription #7</string>
+    <string name="CFG_MAIN_HOURMARK_OUTLINE_COLOR">Hour marks outline</string>
+    <string name="CFG_MAIN_DOM_FRAME_COLOR">Date frame outline</string>
+    <string name="CFG_AMBIENT_DOM_FRAME_COLOR">Ambient date frame outline</string>
+    <string name="CFG_MAIN_TZ_SCRIPTS_COLOR">Timezone inscriptions</string>
+    <string name="CFG_MAIN_TZ_CIRCLES_COLOR">Timezone big circles</string>
+    <string name="CFG_MAIN_TZ_SIGN_COLOR">Time offset sign</string>
+    <string name="CFG_MAIN_TZ_POINT_COLOR">Timezone small circles</string>
+    <string name="CFG_AMBIENT_TZ_SCRIPTS_COLOR">Ambient timezone inscriptions</string>
+    <string name="CFG_AMBIENT_TZ_CIRCLES_COLOR">Ambient timezone big circles</string>
+    <string name="CFG_AMBIENT_TZ_SIGN_COLOR">Ambient time offset sign</string>
+    <string name="CFG_AMBIENT_TZ_POINT_COLOR">Ambient timezone small circles</string>
+
+
+
+    <string-array name="aux_dial_bevel_color">
+        <item>@string/adbc_from_aux</item>
+        <item>@string/adbc_from_main</item>
+    </string-array>
+    <string name="adbc_from_aux">from sub-dial</string>
+    <string name="adbc_from_main">from main dial</string>
+
+    <string-array name="invert_gradient">
+        <item>@string/gd_invert_none</item>
+        <item>@string/gd_invert_main</item>
+        <item>@string/gd_invert_aux</item>
+        <item>@string/gd_invert_both</item>
+    </string-array>
+    <string name="gd_invert_none">none</string>
+    <string name="gd_invert_main">main dial</string>
+    <string name="gd_invert_aux">sub-dials</string>
+    <string name="gd_invert_both">both</string>
+
+    <string name="from">from</string>
+    <string name="string_click">CLICK</string>
+    <string name="string_and">AND</string>
+    <string name="string_long_click">LONG CLICK</string>
+
+    <!-- sans-serif, sans-serif-light, sans-serif-condensed, sans-serif-thin, sans-serif-medium, monospaced -->
+    <!--string name="sans_serif">sans-serif</string>
+    <string name="sans_serif_light">sans-serif-light</string>
+    <string name="sans_serif_condensed">sans-serif-condensed</string>
+    <string name="sans_serif_thin">sans-serif-thin</string>
+    <string name="sans_serif_medium">sans-serif-medium</string>
+    <string name="monospaced">monospaced</string>
+    <string-array name="font_family">
+        <item>@string/sans_serif</item>
+        <item>@string/sans_serif_light</item>
+        <item>@string/sans_serif_condensed</item>
+        <item>@string/sans_serif_thin</item>
+        <item>@string/sans_serif_medium</item>
+        <item>@string/monospaced</item>
+    </string-array-->
+
+    <!-- 0:NORMAL, 1:BOLD, 2:ITALIC, 3:BOLD_ITALIC !!! THE ORDER IS CRITICAL !!! -->
+    <!--string name="fs_normal">NORMAL</string>
+    <string name="fs_bold">BOLD</string>
+    <string name="fs_italic">ITALIC</string>
+    <string name="fs_bold_italic">BOLD_ITALIC</string>
+    <string-array name="font_style">
+        <item>@string/fs_normal</item>
+        <item>@string/fs_bold</item>
+        <item>@string/fs_italic</item>
+        <item>@string/fs_bold_italic</item>
+    </string-array-->
+
+    <string-array name="hour_marks">
+        <item>@string/hour_marks_none</item>
+        <item>@string/hour_marks_digits</item>
+        <item>@string/hour_marks_triangles</item>
+        <item>@string/hour_marks_rnddash</item>
+        <item>@string/hour_marks_rndptr</item>
+        <item>@string/hour_marks_bullet</item>
+        <item>@string/hour_marks_brick</item>
+        <item>@string/hour_marks_dot</item>
+    </string-array>
+    <string name="hour_marks_none">missing</string>
+    <string name="hour_marks_digits">digits</string>
+    <string name="hour_marks_triangles">triangles</string>
+    <string name="hour_marks_rnddash">dash</string>
+    <string name="hour_marks_rndptr">small pointer</string>
+    <string name="hour_marks_bullet">digits Art Deco</string>
+    <string name="hour_marks_brick">big pointer</string>
+    <string name="hour_marks_dot">dot</string>
+
+    <string-array name="hour_marks_relief">
+        <item>@string/hmr_debossed</item>
+        <item>@string/hmr_embossed</item>
+        <item>@string/hmr_relief_missing</item>
+    </string-array>
+    <string name="hmr_embossed">emboss</string>
+    <string name="hmr_debossed">deboss</string>
+    <string name="hmr_relief_missing">none</string>
+
+    <string-array name="tz_watch_src">
+        <item>@string/tz_src_device</item>
+        <item>@string/tz_src_utc</item>
+    </string-array>
+    <string name="tz_src_device">device actual</string>
+    <string name="tz_src_utc">UTC</string>
+
+    <string-array name="tz_hemisphere">
+        <item>@string/tz_hemisph_upper</item>
+        <item>@string/tz_hemisph_lower</item>
+    </string-array>
+    <string name="tz_hemisph_upper">upper</string>
+    <string name="tz_hemisph_lower">lower</string>
+    <string name="sett_001">ICON CLICK WAKEUP TIMEOUT</string>
+    <string name="sett_002">GLOBAL TRIGGERS</string>
+    <string name="sett_003">Respect burn in protection</string>
+    <string name="sett_004">Sweep seconds</string>
+    <string name="sett_005">Show handheld battery</string>
+    <string name="sett_006">PLATE TRIGGERS</string>
+    <string name="sett_007">Sub-dials bevel color from</string>
+    <string name="sett_008">Colorize burn in margin</string>
+    <string name="sett_009">Show pigment gradient</string>
+    <string name="sett_010">Show inscriptions relief</string>
+    <string name="sett_011">Show hour marks relief</string>
+    <string name="sett_012">PLATE PIGMENT GRADIENT</string>
+    <string name="sett_014">Invert gradient</string>
+    <string name="sett_015">Main dial</string>
+    <string name="sett_016">Sub-dials</string>
+    <string name="sett_017">Send to watch</string>
+    <string name="sett_018">PLATE FX</string>
+    <string name="sett_019">Main dial texture strength</string>
+    <string name="sett_020">Sub-dials texture strength</string>
+    <string name="sett_021">Main dial relief strength</string>
+    <string name="sett_022">HOUR MARKS</string>
+    <string name="sett_023">Emboss/deboss strength</string>
+    <string name="sett_024_12">hour mark 12</string>
+    <string name="sett_024_1">hour mark 1</string>
+    <string name="sett_024_2">hour mark 2</string>
+    <string name="sett_024_3">hour mark 3</string>
+    <string name="sett_024_4">hour mark 4</string>
+    <string name="sett_024_5">hour mark 5</string>
+    <string name="sett_024_6">hour mark 6</string>
+    <string name="sett_024_7">hour mark 7</string>
+    <string name="sett_024_8">hour mark 8</string>
+    <string name="sett_024_9">hour mark 9</string>
+    <string name="sett_024_10">hour mark 10</string>
+    <string name="sett_024_11">hour mark 11</string>
+    <string name="sett_025">INSCRIPTIONS</string>
+    <string name="sett_026">Show on plate</string>
+    <string name="sett_027">Text</string>
+    <string name="sett_028">Font size</string>
+    <string name="sett_029">Horiz. scale</string>
+    <string name="sett_030">Prev.</string>
+    <string name="sett_031">Next</string>
+    <string name="sett_032">Info</string>
+    <string name="sett_033">Lgnd</string>
+    <string name="sett_034">Copy</string>
+    <string name="sett_035">Paste</string>
+    <string name="sett_036">Radius</string>
+    <string name="sett_037">Radius angle</string>
+    <string name="sett_038">Incline</string>
+    <string name="sett_039">Bend</string>
+    <string name="sett_040">Direction</string>
+    <string name="sett_041">Font family</string>
+    <string name="sett_042">Font style</string>
+    <string name="sett_043">FX</string>
+    <string name="sett_044">Emboss/deboss strength</string>
+    <string name="sett_045">TIMEZONE INDICATION</string>
+    <string name="sett_046">Watch timezone</string>
+    <string name="sett_047">Timezone info in hemisphere</string>
+    <string name="sett_048">Device timezone label (3 symb.)</string>
+    <string name="sett_049">UTC timezone label (3 symb.)</string>
+    <string name="sett_050">Alternative timezones</string>
+    <string name="sett_051">Timezone</string>
+    <string name="sett_052">Short label (3 symb.)</string>
+    <string name="toast_missing_dense">Mising interactive icon</string>
+    <string name="toast_missing_ambient">Missing ambient icon</string>
+    <string name="toast_missing_config">Missing watch config</string>
+    <string name="string_done">Done.</string>
+    <string name="toast_input_error">Input error</string>
+
+
+
+
+
+
+
+
+    <!-- 0:STRAIGHT, 1:ROUND_MC, 2:ROUND_AC, 3:ROUND_BC, 4:ROUND_CC -->
+    <string name="bend_straight">None, straight</string>
+    <string name="bend_round_mc">Round, main dial center</string>
+    <string name="bend_round_ac">Round, sub-dial A center</string>
+    <string name="bend_round_bc">Round, sub-dial B center</string>
+    <string name="bend_round_cc">Round, sub-dial C center</string>
+    <string-array name="bend_type">
+        <item>@string/bend_straight</item>
+        <item>@string/bend_round_mc</item>
+        <item>@string/bend_round_ac</item>
+        <item>@string/bend_round_bc</item>
+        <item>@string/bend_round_cc</item>
+    </string-array>
+
+    <!-- 0:CW, 1:CCW -->
+    <string name="dir_cw">Clockwise</string>
+    <string name="dir_ccw">Counter clockwise</string>
+    <string-array name="direction_type">
+        <item>@string/dir_cw</item>
+        <item>@string/dir_ccw</item>
+    </string-array>
+
+    <!-- inscription appearance: 0:NONE 1:DARK_SHADOW 2:LIGHT_SHADOW 3:EMBOSS 4:DEBOSS -->
+    <string name="fx_none">None</string>
+    <string name="fx_shadow_dark">Blurred shadow dark</string>
+    <string name="fx_shadow_light">Blurred shadow light</string>
+    <string name="fx_emboss">Emboss</string>
+    <string name="fx_deboss">Deboss</string>
+    <string-array name="inscription_fx">
+        <item>@string/fx_none</item>
+        <item>@string/fx_shadow_dark</item>
+        <item>@string/fx_shadow_light</item>
+        <item>@string/fx_emboss</item>
+        <item>@string/fx_deboss</item>
+    </string-array>
+
+    <!-- sans-serif, sans-serif-light, sans-serif-condensed, sans-serif-thin, sans-serif-medium, monospace -->
+    <string name="sans_serif">sans-serif</string>
+    <string name="sans_serif_light">sans-serif-light</string>
+    <string name="sans_serif_condensed">sans-serif-condensed</string>
+    <string name="sans_serif_thin">sans-serif-thin</string>
+    <string name="sans_serif_medium">sans-serif-medium</string>
+    <string name="monospace">monospace</string>
+    <string-array name="font_family">
+        <item>@string/sans_serif</item>
+        <item>@string/sans_serif_light</item>
+        <item>@string/sans_serif_condensed</item>
+        <item>@string/sans_serif_thin</item>
+        <item>@string/sans_serif_medium</item>
+        <item>@string/monospace</item>
+    </string-array>
+
+    <!-- 0:NORMAL, 1:BOLD, 2:ITALIC, 3:BOLD_ITALIC !!! THE ORDER IS CRITICAL !!! -->
+    <string name="fs_normal">NORMAL</string>
+    <string name="fs_bold">BOLD</string>
+    <string name="fs_italic">ITALIC</string>
+    <string name="fs_bold_italic">BOLD_ITALIC</string>
+    <string-array name="font_style">
+        <item>@string/fs_normal</item>
+        <item>@string/fs_bold</item>
+        <item>@string/fs_italic</item>
+        <item>@string/fs_bold_italic</item>
+    </string-array>
+
+
+
+
+
+    <string name="fp_authority_0">com.luna_78.wear.watch.face.raf3078.fileprovider</string>
+
+</resources>

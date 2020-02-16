@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">Common</string>
+
+    <!--string name="fp_authority_0">com.luna_78.wear.watch.face.raf3078.fileprovider</string-->
+
+    <string name="product_id">RAF3078</string>
+
+    <string name="default_shared_preferences_name">SETTINGS</string>
+
+    <!--string name="app_name">CommonWearMobile</string-->
+
+    <!-- sans-serif, sans-serif-light, sans-serif-condensed, sans-serif-thin, sans-serif-medium, monospace -->
+    <string name="sans_serif">sans-serif</string>
+    <string name="sans_serif_light">sans-serif-light</string>
+    <string name="sans_serif_condensed">sans-serif-condensed</string>
+    <string name="sans_serif_thin">sans-serif-thin</string>
+    <string name="sans_serif_medium">sans-serif-medium</string>
+    <string name="monospace">monospace</string>
+    <string-array name="font_family">
+        <item>@string/sans_serif</item>
+        <item>@string/sans_serif_light</item>
+        <item>@string/sans_serif_condensed</item>
+        <item>@string/sans_serif_thin</item>
+        <item>@string/sans_serif_medium</item>
+        <item>@string/monospace</item>
+    </string-array>
+
+    <!-- 0:NORMAL, 1:BOLD, 2:ITALIC, 3:BOLD_ITALIC !!! THE ORDER IS CRITICAL !!! -->
+    <string name="fs_normal">NORMAL</string>
+    <string name="fs_bold">BOLD</string>
+    <string name="fs_italic">ITALIC</string>
+    <string name="fs_bold_italic">BOLD_ITALIC</string>
+    <string-array name="font_style">
+        <item>@string/fs_normal</item>
+        <item>@string/fs_bold</item>
+        <item>@string/fs_italic</item>
+        <item>@string/fs_bold_italic</item>
+    </string-array>
+
+    <!-- 0:STRAIGHT, 1:ROUND_MC, 2:ROUND_AC, 3:ROUND_BC, 4:ROUND_CC -->
+    <string name="bend_straight">None, straight</string>
+    <string name="bend_round_mc">Round, main dial center</string>
+    <string name="bend_round_ac">Round, sub-dial A center</string>
+    <string name="bend_round_bc">Round, sub-dial B center</string>
+    <string name="bend_round_cc">Round, sub-dial C center</string>
+    <string-array name="bend_type">
+        <item>@string/bend_straight</item>
+        <item>@string/bend_round_mc</item>
+        <item>@string/bend_round_ac</item>
+        <item>@string/bend_round_bc</item>
+        <item>@string/bend_round_cc</item>
+    </string-array>
+
+    <!-- 0:CW, 1:CCW -->
+    <string name="dir_cw">Clockwise</string>
+    <string name="dir_ccw">Counter clockwise</string>
+    <string-array name="direction_type">
+        <item>@string/dir_cw</item>
+        <item>@string/dir_ccw</item>
+    </string-array>
+
+    <!-- inscription appearance: 0:NONE 1:DARK_SHADOW 2:LIGHT_SHADOW 3:EMBOSS 4:DEBOSS -->
+    <string name="fx_none">None</string>
+    <string name="fx_shadow_dark">Blurred shadow dark</string>
+    <string name="fx_shadow_light">Blurred shadow light</string>
+    <string name="fx_emboss">Emboss</string>
+    <string name="fx_deboss">Deboss</string>
+    <string-array name="inscription_fx">
+        <item>@string/fx_none</item>
+        <item>@string/fx_shadow_dark</item>
+        <item>@string/fx_shadow_light</item>
+        <item>@string/fx_emboss</item>
+        <item>@string/fx_deboss</item>
+    </string-array>
+
+
+</resources>

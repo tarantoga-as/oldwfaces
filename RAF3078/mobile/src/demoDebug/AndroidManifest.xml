@@ -1,0 +1,23 @@
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        tools:replace="android:label"
+        android:label="RAF3078-demo"
+        >
+
+        <provider
+            tools:replace="android:authorities"
+            android:authorities="com.luna_78.wear.watch.face.raf3078_demo.fileprovider"
+            android:name="android.support.v4.content.FileProvider"
+            >
+        </provider>
+
+    </application>
+
+</manifest>
+

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RAF3078</string>
+    <string name="fit_in_toast">Fit in…</string>
+    <string name="elm_burn_in_margin">Burn in protection</string>
+    <string name="elm_phone_battery">Phone battery</string>
+    <string name="elm_sweep_seconds">Sweep seconds</string>
+    <string name="elm_time_source">Time source</string>
+    <string name="elm_tz_hemisphere">TZ hemisphere</string>
+    <string name="watch_tz_source_utc">UTC</string>
+    <string name="word_on">on</string>
+    <string name="word_off">off</string>
+    <string name="watch_tz_source_device">device</string>
+    <string name="watch_tz_hemisphere_upper">upper</string>
+    <string name="watch_tz_hemisphere_lower">lower</string>
+    <string name="handheld_battery_show">show</string>
+    <string name="handheld_battery_hide">hide</string>
+    <string name="elements_list_title">Settings</string>
+</resources>

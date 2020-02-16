@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.luna_78.wear.watch.face.lightandclassics" >
+
+    <uses-permission android:name="com.google.android.permission.PROVIDE_BACKGROUND" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <!--  -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".HandheldApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/handheld_app_label"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+
+        <service
+            android:name=".APhoneService"
+            android:label="@string/handheld_service_label"
+            android:enabled="true"
+            android:exported="false" >
+        </service>
+
+        <service android:name=".common.WearDataListener" >
+            <intent-filter>
+                <action android:name="com.google.android.gms.wearable.BIND_LISTENER" />
+            </intent-filter>
+        </service>
+
+        <receiver
+            android:name=".APhoneServiceAutostart"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <!-- action android:name="android.net.conn.CONNECTIVITY_CHANGE" / -->
+                <!--
+                action android:name="android.intent.action.BATTERY_CHANGED" />
+                <action android:name="android.intent.action.BATTERY_LOW" />
+                <action android:name="android.intent.action.BATTERY_OKAY" /
+                -->
+                <!--action android:name="android.net.wifi.WIFI_STATE_CHANGED" /-->
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".HandheldCompanionConfigActivity"
+            android:label="@string/handheld_app_label"
+            android:launchMode="singleInstance"
+            android:theme="@style/AppTheme" >
+            <intent-filter>
+                <action android:name="com.luna_78.lightandclassics.CONFIG" />
+                <category android:name="com.google.android.wearable.watchface.category.COMPANION_CONFIGURATION" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".DefaultLauncherActivity"
+            android:label="@string/handheld_launcher_label" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

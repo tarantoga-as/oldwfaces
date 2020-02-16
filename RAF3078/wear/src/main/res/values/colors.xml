@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="Orange" type="color">#FFFFA500</item>
+    <item name="Phosphor" type="color">#FF9DC775</item>
+    <item name="PureBlack" type="color">#FF000000</item>
+    <item name="PureGrey" type="color">#FF787878</item>
+    <item name="PureGreyC8" type="color">#C8787878</item>
+    <item name="PureRed" type="color">#FFFF0000</item>
+    <item name="BBGreen" type="color">#FF98A898</item>
+</resources>

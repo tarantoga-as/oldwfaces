@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:weightSum="100"
+        android:background="@color/tab_color">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:text="LAYOUT"
+            android:id="@+id/titleLayout"
+            android:layout_weight="36"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal">
+            <View style="@style/DividerV"
+                android:background="#ffa0a0a0" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:text="SETTINGS"
+            android:id="@+id/titleSettings"
+            android:layout_weight="33"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:paddingBottom="3dp"
+            android:paddingTop="3dp"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal">
+            <View style="@style/DividerV"
+                android:background="#ffa0a0a0" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:text="COLLECTION"
+            android:id="@+id/titleCollections"
+            android:layout_weight="29"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="93"
+        android:weightSum="100"
+        android:background="@android:color/background_dark">
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="36"
+            android:id="@+id/frame_layout"></FrameLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"
+            android:gravity="center_horizontal">
+            <View style="@style/DividerV"
+                android:layout_gravity="center_horizontal"
+                android:background="#8c919191" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="33"
+            android:id="@+id/frame_settings"></FrameLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp">
+            <View style="@style/DividerV"
+                android:layout_gravity="center_horizontal"
+                android:background="#8c919191" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="29"
+            android:id="@+id/frame_collection">
+
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

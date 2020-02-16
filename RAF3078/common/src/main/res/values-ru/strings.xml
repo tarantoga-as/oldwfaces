@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Common</string>
+
+    <string name="fs_bold">Жирный</string>
+    <string name="fs_bold_italic">Жирный курсив</string>
+    <string name="fs_italic">Курсив</string>
+    <string name="bend_round_ac">По кругу, центр в середине всп. циф. A</string>
+    <string name="bend_round_bc">По кругу, центр в середине всп. циф. B</string>
+    <string name="bend_round_cc">По кругу, центр в середине всп. циф. C</string>
+    <string name="bend_round_mc">По кругу, центр в середине основного циф.</string>
+    <string name="bend_straight">Нет, по лучу</string>
+    <string name="dir_ccw">Против часовой стрелки</string>
+    <string name="dir_cw">По  часовой стрелке</string>
+    <string name="fs_normal">Обычный</string>
+    <string name="fx_deboss">Вдавлено</string>
+    <string name="fx_emboss">Выпукло</string>
+    <string name="fx_none">Нет</string>
+    <string name="fx_shadow_dark">Тёмная размытая тень</string>
+    <string name="fx_shadow_light">Светлая размытая тень</string>
+</resources>

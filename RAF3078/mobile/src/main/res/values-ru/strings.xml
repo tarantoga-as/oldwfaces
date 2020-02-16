@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RAF3078</string>
+
+    <string name="watchface_service_running">7</string>
+    <string name="confirm_reset_to_defaults_title">Подтвердите сброс настроек</string>
+    <string name="confirm_reset_to_defaults_message">Пожалуйста, подтвердите сброс настроек в значения по умолчанию</string>
+    <string name="string_ok">ДА</string>
+    <string name="string_cancel">Отмена</string>
+    <string name="title_activity_handheld_companion_config">HandheldCompanionConfigActivity</string>
+    <string name="tab_layout">Вид</string>
+    <string name="tab_settings">Настройки</string>
+    <string name="tab_collection">Коллекция</string>
+    <string name="configFileName">layoutspalette.hex</string>
+
+    <!--
+                <string name="CFG_MAIN_DIGITS_COLOR">Цифры индикации часов</string>
+                <string name="CFG_MAIN_HOURHAND_COLOR">Часовая стрелка внутри</string>
+                <string name="CFG_MAIN_MINUTEHAND_COLOR">Минутная стрелка внутри</string>
+                <string name="CFG_MAIN_BACKGROUND_COLOR">Циферблат</string>
+                <string name="CFG_MAIN_MAINHANDS_COLOR">Окантовка главных стрелок</string>
+                <string name="CFG_MAIN_SECONDSHAND_COLOR">Секундная стрелка</string>
+                <string name="CFG_MAIN_DOMBACK_COLOR">Фон даты</string>
+                <string name="CFG_MAIN_DOMFRONT_COLOR">Дата</string>
+                <string name="CFG_MAIN_TICK_COLOR">Риски индикации минут</string>
+                <string name="CFG_MAIN_TICKDIGIT_COLOR">Цифры индикации минут</string>
+                //
+                <string name="CFG_MAIN_BIGAUX_BACKGROUND_COLOR">Фон б. вспом. циферблата</string>
+                <string name="CFG_MAIN_BIGAUX_DIGITS_COLOR">Цифры б. вспом. циферблата</string>
+                <string name="CFG_MAIN_BIGAUX_TICKS_COLOR">Риски б. вспом. циферблата</string>
+                //
+                <string name="CFG_MAIN_SMALLAUX_BACKGROUND_COLOR">Фон м. вспом. циферблата</string>
+                <string name="CFG_MAIN_SMALLAUX_DIGITS_COLOR">Цифры м. вспом. циферблата</string>
+                <string name="CFG_MAIN_SMALLAUX_TICKS1_COLOR">Риски 1 м. вспом. циферблата</string>
+                <string name="CFG_MAIN_SMALLAUX_TICKS2_COLOR">Риски 2 м. вспом. циферблата</string>
+                //
+                <string name="CFG_MAIN_AUXHANDS_WEEKDAY_COLOR">Стрелка б. всп. циферблата</string>
+                //
+                <string name="CFG_MAIN_AUXHANDS_WEARBATT_COLOR">Стрелка 1 м. всп. циферблата</string>
+                <string name="CFG_MAIN_AUXHANDS_PHONEBATT_COLOR">Стрелка 2 м. всп. циферблата</string>
+                <string name="CFG_MAIN_AUXHANDS_MONTH_COLOR">Стрелка 3 м. всп. циферблата</string>
+                //
+                <string name="CFG_AMBIENT_DIGITS_COLOR"># Цифры индикации часов</string>
+                <string name="CFG_AMBIENT_HOURHAND_COLOR"># Часовая стрелка внутри</string>
+                <string name="CFG_AMBIENT_MINUTEHAND_COLOR"># Минутная стрелка внутри</string>
+                <string name="CFG_AMBIENT_TICK_COLOR"># Риски и цифры индикации</string>
+                <string name="CFG_AMBIENT_TICKDIGIT_COLOR"># Цифры индикации минут</string>
+                <string name="CFG_AMBIENT_DOM_AUXHANDS_COLOR"># Фон даты и всп. стрелки</string>
+    -->
+
+    <string name="screen_rotate_warning">Экран слишком мал для горизонтальной ориентации.</string>
+    <string name="adbc_from_aux">вспомогательных циферблатов</string>
+    <string name="adbc_from_main">основного циферблата</string>
+    <string name="gd_invert_aux">вспом. циферблатов</string>
+    <string name="gd_invert_main">осн. циферблата</string>
+    <string name="gd_invert_none">нет</string>
+    <string name="gd_invert_both">всех циферблатов</string>
+    <string name="from">из</string>
+
+    <string name="EMPTY_COLOR_CELL">Пустая ячейка цвета</string>
+    <string name="CFG_MAIN_DIGITS_COLOR">Метки индикации часов</string>
+    <string name="CFG_MAIN_HOURHAND_COLOR">Часовая стрелка внутри</string>
+    <string name="CFG_MAIN_MINUTEHAND_COLOR">Минутная стрелка внутри</string>
+    <string name="CFG_MAIN_BACKGROUND_COLOR">Циферблат</string>
+    <string name="CFG_MAIN_MAINHANDS_COLOR">Окантовка главных стрелок</string>
+    <string name="CFG_MAIN_SECONDSHAND_COLOR">Секундная стрелка</string>
+    <string name="CFG_MAIN_DOMBACK_COLOR">Фон даты</string>
+    <string name="CFG_MAIN_DOMFRONT_COLOR">Цифры даты</string>
+    <string name="CFG_MAIN_TICK_COLOR">Риски индикации минут</string>
+    <string name="CFG_MAIN_TICKDIGIT_COLOR">Цифры индикации минут</string>
+    <string name="CFG_MAIN_BIGAUX_BACKGROUND_COLOR">Фон б. вспом. циферблата</string>
+    <string name="CFG_MAIN_BIGAUX_DIGITS_COLOR">Цифры б. вспом. циферблата</string>
+    <string name="CFG_MAIN_BIGAUX_TICKS_COLOR">Риски б. вспом. циферблата</string>
+    <string name="CFG_MAIN_SMALLAUX_BACKGROUND_COLOR">Фон м. вспом. циферблата</string>
+    <string name="CFG_MAIN_SMALLAUX_DIGITS_COLOR">Цифры м. вспом. циферблата</string>
+    <string name="CFG_MAIN_SMALLAUX_TICKS1_COLOR">Риски 1 м. вспом. циферблата</string>
+    <string name="CFG_MAIN_SMALLAUX_TICKS2_COLOR">Риски 2 (критич. зона) м. вспом. циферблата</string>
+    <string name="CFG_MAIN_AUXHANDS_WEEKDAY_COLOR">Стрелка б. всп. циферблата</string>
+    <string name="CFG_MAIN_AUXHANDS_WEARBATT_COLOR">Стрелка 1 м. всп. циферблата</string>
+    <string name="CFG_MAIN_AUXHANDS_PHONEBATT_COLOR">Стрелка 2 м. всп. циферблата</string>
+    <string name="CFG_MAIN_AUXHANDS_MONTH_COLOR">Стрелка 3 м. всп. циферблата</string>
+    <string name="CFG_AMBIENT_DIGITS_COLOR"># Цифры индикации часов</string>
+    <string name="CFG_AMBIENT_HOURHAND_COLOR"># Часовая стрелка внутри</string>
+    <string name="CFG_AMBIENT_MINUTEHAND_COLOR"># Минутная стрелка внутри</string>
+    <string name="CFG_AMBIENT_TICK_COLOR"># Риски и цифры индикации</string>
+    <string name="CFG_AMBIENT_TICKDIGIT_COLOR"># Цифры индикации минут</string>
+    <string name="CFG_AMBIENT_DOM_AUXHANDS_COLOR"># Фон даты и вспом. стрелки</string>
+    <string name="CFG_MAIN_DECORUPPER_COLOR">Верхний орнамент</string>
+    <string name="CFG_AMBIENT_DECORUPPER_COLOR"># Верхний орнамент</string>
+    <string name="CFG_AMBIENT_AUXHANDS_COLOR"># Вспом. стрелки</string>
+    <string name="CFG_AMBIENT_DOMBACK_COLOR"># Фон даты</string>
+    <string name="CFG_AMBIENT_DOMFRONT_COLOR"># Цифры даты</string>
+    <string name="CFG_MAIN_INSCRIPTION_1_COLOR">Надпись 1</string>
+    <string name="CFG_MAIN_INSCRIPTION_2_COLOR">Надпись 2</string>
+    <string name="CFG_MAIN_INSCRIPTION_3_COLOR">Надпись 3</string>
+    <string name="CFG_MAIN_INSCRIPTION_4_COLOR">Надпись 4</string>
+    <string name="CFG_MAIN_INSCRIPTION_5_COLOR">Надпись 5</string>
+    <string name="CFG_MAIN_INSCRIPTION_6_COLOR">Надпись 6</string>
+    <string name="CFG_MAIN_INSCRIPTION_7_COLOR">Надпись 7</string>
+    <string name="string_add">Добавить</string>
+    <string name="string_replace">ЗАМЕНИТЬ</string>
+    <string name="confirm_add_or_replace_message">Пожалуйста, подтвердите добавление новых элементов к текущей коллекции, или полную замену текущей коллекции циферблатов на новую</string>
+    <string name="confirm_add_or_replace_title">Подтверждение операции с коллекцией циферблатов</string>
+    <string name="string_long_click">ДОЛГОЕ НАЖАТИЕ</string>
+    <string name="string_and">И</string>
+    <string name="string_click">НАЖАТИЕ</string>
+    <string name="hour_marks_digits">цифры</string>
+    <string name="hour_marks_none">отсутствует</string>
+    <string name="hour_marks_triangles">треугольник</string>
+    <string name="hour_marks_rnddash">штрих</string>
+    <string name="hmr_embossed">выпукло</string>
+    <string name="hmr_debossed">вдавлено</string>
+    <string name="hour_marks_rndptr">малый указатель</string>
+    <string name="hour_marks_bullet">цифры Арт Деко</string>
+    <string name="CFG_MAIN_HOURMARK_OUTLINE_COLOR">Обводка индикации часов</string>
+    <string name="CFG_AMBIENT_DOM_FRAME_COLOR"># Окантовка даты</string>
+    <string name="CFG_MAIN_DOM_FRAME_COLOR">Окантовка даты</string>
+    <string name="hmr_relief_missing">нет</string>
+    <string name="hour_marks_brick">большой указатель</string>
+    <string name="hour_marks_dot">точка</string>
+    <string name="CFG_MAIN_TZ_SIGN_COLOR">Знак смещения времени</string>
+    <string name="CFG_MAIN_TZ_CIRCLES_COLOR">Индикатор часового пояса</string>
+    <string name="CFG_MAIN_TZ_POINT_COLOR">Малый индикатор часового пояса</string>
+    <string name="CFG_MAIN_TZ_SCRIPTS_COLOR">Надписи индикации часового пояса</string>
+    <string name="CFG_AMBIENT_TZ_CIRCLES_COLOR"># Индикатор часового пояса</string>
+    <string name="CFG_AMBIENT_TZ_POINT_COLOR"># Малый индикатор часового пояса</string>
+    <string name="CFG_AMBIENT_TZ_SCRIPTS_COLOR"># Надписи индикации часового пояса</string>
+    <string name="CFG_AMBIENT_TZ_SIGN_COLOR"># Знак смещения времени</string>
+    <string name="tz_hemisph_upper">верхняя</string>
+    <string name="tz_hemisph_lower">нижняя</string>
+    <string name="tz_src_device">действующий для устройства</string>
+    <string name="tz_src_utc">UTC</string>
+    <string name="sett_001">ТАЙМАУТ ИНТЕРАКТИВНОГО РЕЖИМА</string>
+    <string name="sett_002">ОБЩИЕ УСТАНОВКИ</string>
+    <string name="sett_003">Учитывать защиту от выгорания</string>
+    <string name="sett_004">Секунды непрерывно</string>
+    <string name="sett_005">Показывать батарею телефона</string>
+    <string name="sett_006">УСТАНОВКИ ЦИФЕРБЛАТА</string>
+    <string name="sett_007">Цвет фаски вспом. циферблатов от</string>
+    <string name="sett_008">Закрасть внешнее кольцо</string>
+    <string name="sett_009">Градиент закраски</string>
+    <string name="sett_010">Рельеф надписей</string>
+    <string name="sett_011">Рельеф часовых меток</string>
+    <string name="sett_012">ГРАДИЕНТ ЗАКРАСКИ</string>
+    <string name="sett_014">Инвертировать градиент</string>
+    <string name="sett_015">Основной циферблат</string>
+    <string name="sett_016">Вспом. циферблаты</string>
+    <string name="sett_017">Отправить в часы</string>
+    <string name="sett_018">СПЕЦЭФФЕКТЫ ОТОБРАЖЕНИЯ</string>
+    <string name="sett_019">Влияние текстуры на осн. циферблат </string>
+    <string name="sett_020">Влияние текстуры на всп. циферблаты</string>
+    <string name="sett_021">Рельеф пластины циферблата</string>
+    <string name="sett_022">ОТМЕТКИ ЧАСОВ</string>
+    <string name="sett_023">Величина рельефа часовых меток</string>
+    <string name="sett_024_12">12 часов</string>
+    <string name="sett_024_1">1 час</string>
+    <string name="sett_024_2">2 часа</string>
+    <string name="sett_024_9">9 часов</string>
+    <string name="sett_024_8">8 часов</string>
+    <string name="sett_024_7">7 часов</string>
+    <string name="sett_024_6">6 часов</string>
+    <string name="sett_024_5">5 часов</string>
+    <string name="sett_024_4">4 часа</string>
+    <string name="sett_024_3">3 часа</string>
+    <string name="sett_024_11">11 часов</string>
+    <string name="sett_024_10">10 часов</string>
+    <string name="sett_025">НАДПИСИ</string>
+    <string name="sett_026">Показывать на циферблате</string>
+    <string name="sett_027">Текст</string>
+    <string name="sett_028">Размер шрифта</string>
+    <string name="sett_029">Гориз. масштаб</string>
+    <string name="sett_030">Пред.</string>
+    <string name="sett_031">След.</string>
+    <string name="sett_032">Инфо</string>
+    <string name="sett_033">Лгнд.</string>
+    <string name="sett_034">Копир.</string>
+    <string name="sett_035">Встав.</string>
+    <string name="sett_036">Радиус</string>
+    <string name="sett_037">Угол радиуса</string>
+    <string name="sett_038">Наклон</string>
+    <string name="sett_039">Изгиб</string>
+    <string name="sett_040">Направление</string>
+    <string name="sett_041">Семейство фонта</string>
+    <string name="sett_042">Стиль фонта</string>
+    <string name="sett_043">Спецэффект</string>
+    <string name="sett_044">Величина рельефа надписи</string>
+    <string name="sett_045">ИНДИКАЦИЯ ЧАСОВОГО ПОЯСА</string>
+    <string name="sett_046">Часовой пояс часов</string>
+    <string name="sett_047">Показывать час. пояс в полусфере</string>
+    <string name="sett_048">Метка час. пояса устройства (3 симв.)</string>
+    <string name="sett_049">Метка час. пояса UTC (3 симв.)</string>
+    <string name="sett_050">Дополнит. часовые пояса</string>
+    <string name="sett_051">Часовой пояс</string>
+    <string name="sett_052">Текстовая метка (3 симв.)</string>
+    <string name="toast_missing_dense">Нет скриншота интерактивного режима</string>
+    <string name="toast_missing_ambient">Нет скриншота режима сохранения энергии</string>
+    <string name="toast_missing_config">Отсутствует конфигурация</string>
+    <string name="string_done">Готово.</string>
+    <string name="toast_input_error">Ошибка ввода</string>
+
+
+
+
+
+    <string name="bend_round_ac">По кругу, центр в середине всп. циф. A</string>
+    <string name="bend_round_bc">По кругу, центр в середине всп. циф. B</string>
+    <string name="bend_round_cc">По кругу, центр в середине всп. циф. C</string>
+    <string name="bend_round_mc">По кругу, центр в середине основного циф.</string>
+    <string name="bend_straight">Нет, по лучу</string>
+    <string name="dir_ccw">Против часовой стрелки</string>
+    <string name="dir_cw">По  часовой стрелке</string>
+    <string name="fs_normal">Обычный</string>
+    <string name="fx_deboss">Вдавлено</string>
+    <string name="fx_emboss">Выпукло</string>
+    <string name="fx_none">Нет</string>
+    <string name="fx_shadow_dark">Тёмная размытая тень</string>
+    <string name="fx_shadow_light">Светлая размытая тень</string>
+
+    <string name="fs_bold">Жирный</string>
+    <string name="fs_bold_italic">Жирный курсив</string>
+    <string name="fs_italic">Курсив</string>
+
+
+
+</resources>

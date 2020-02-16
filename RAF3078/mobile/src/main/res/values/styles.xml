@@ -1,0 +1,43 @@
+<resources>
+
+
+
+    <!-- Base application theme. -->
+    <!-- style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar" -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.NoActionBar">
+        <!-- Customize your theme here. @android:style/Theme.Black -->
+        <!--item name="android:background">#505050</item-->
+        <!--item name="android:buttonStyle">@style/ThemeOverlay.AppCompat.Dark</item-->
+        <item name="android:windowNoTitle">true</item>
+        <!--item name="android:spinnerItemStyle">@style/SpinnerItem</item-->
+        <!--item name="android:spinnerDropDownItemStyle">@style/SpinnerItem.DropDownItem</item-->
+        <item name="android:windowBackground">@color/back_color</item>
+        <item name="android:colorBackground">#707070</item>
+    </style>
+
+    <style name="DividerV">
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:gravity">center_horizontal</item>
+        <!--item name="android:background">?android:attr/listDivider</item-->
+        <!--item name="android:background">#FF989898</item-->
+    </style>
+
+    <style name="SpinnerItem.DropDownItem" parent="@android:style/Widget.Holo.DropDownItem.Spinner">
+        <item name="android:textColor">@android:color/holo_blue_bright</item>
+    </style>
+    <style name="SpinnerItem" parent="@android:style/Widget.Holo.TextView.SpinnerItem">
+        <item name="android:textColor">@android:color/holo_orange_light</item>
+    </style>
+
+    <style name="AuxBevelColor" parent="@android:style/Widget.Holo.TextView.SpinnerItem">
+        <item name="android:spinnerItemStyle">@style/SpinnerItem.AuxBevelColor</item>
+    </style>
+    <style name="SpinnerItem.AuxBevelColor" parent="@android:style/Widget.Holo.TextView.SpinnerItem">
+        <item name="android:textColor">@android:color/holo_orange_light</item>
+    </style>
+
+
+
+</resources>

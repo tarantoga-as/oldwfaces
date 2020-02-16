@@ -1,0 +1,47 @@
+apply plugin: 'com.android.application'
+
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion "22.0.1"
+    publishNonDefault true
+    defaultConfig {
+        applicationId "com.luna_78.wear.watch.face.raf3078"
+        minSdkVersion 21
+        targetSdkVersion 22
+        versionCode 103
+        versionName '1.0.3'
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    productFlavors {
+        demo {
+            minSdkVersion 22
+            applicationId 'com.luna_78.wear.watch.face.raf3078_demo'
+            targetSdkVersion 22
+            versionCode 103
+            versionName '1.0.3-demo'
+        }
+        playstore {
+            minSdkVersion 22
+            applicationId 'com.luna_78.wear.watch.face.raf3078'
+            targetSdkVersion 22
+            versionCode 103
+            versionName '1.0.3'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.google.android.support:wearable:1.3.0'
+    compile 'com.google.android.gms:play-services-wearable:7.0.0'
+    //compile 'com.google.android.support:wearable:1.1.0'
+    //compile 'com.google.android.gms:play-services-wearable:7.0.0'
+    compile 'ch.acra:acra:4.6.2'
+    compile project(':common')
+}

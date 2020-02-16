@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <!--
+        android:layout_toLeftOf="@+id/editValue"
+    -->
+
+    <Button
+        android:id="@+id/btnDown"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:text="&lt;"
+        android:textColor="@color/white"
+        android:background="#474747" />
+
+    <EditText
+        android:layout_width="80dp"
+        android:layout_height="fill_parent"
+        android:id="@+id/editValue"
+        android:textColor="@color/white"
+        android:inputType="number|numberDecimal"
+        android:digits="0123456789."
+        android:gravity="center"
+        android:background="#313131" />
+
+    <Button
+        android:id="@+id/btnUp"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+
+        android:text=">"
+        android:textColor="@color/white"
+        android:background="#474747" />
+
+</merge>

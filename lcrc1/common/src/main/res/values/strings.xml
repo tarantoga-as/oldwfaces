@@ -1,0 +1,13 @@
+<resources>
+    <string name="default_shared_preferences_name">SETTINGS</string>
+    <string name="wearable_app_label">Light Classics</string>
+    <string name="handheld_app_label">Light Classics watch face</string>
+    <string name="handheld_launcher_label">Light Classics watch face</string>
+    <string name="handheld_service_label">Service for Light Classics watch face</string>
+    <string name="product_id">LACF1144</string>
+    <string name="elements_list_title">Settings</string>
+    <string name="elm_phone_battery">Phone battery</string>
+    <string name="handheld_battery_hide">hide</string>
+    <string name="handheld_battery_show">show</string>
+    <!--string name="config_intent_filter_action">com.luna_78.lightandclassics.CONFIG</string-->
+</resources>

@@ -1,0 +1,94 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.luna_78.wear.watch.face.raf3078">
+
+    <!--uses-feature android:name="android.hardware.type.watch" />
+    <application android:allowBackup="true"
+        android:label="@string/app_name"
+        android:icon="@mipmap/ic_launcher"
+        android:theme="@android:style/Theme.DeviceDefault">
+
+    </application-->
+
+
+    <uses-feature android:name="android.hardware.type.watch" />
+
+
+
+    <uses-permission android:name="com.google.android.permission.PROVIDE_BACKGROUND" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <!--  -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <!--  -->
+    <!-- TEMPORARY BEGIN -->
+    <!--uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /-->
+    <!-- TEMPORARY END -->
+
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.DeviceDefault"
+        android:name="com.luna_78.wear.watch.face.raf3078.WearApplication"
+        android:largeHeap="true">
+
+        <service
+            android:name=".AWearFaceService"
+            android:allowEmbedded="true"
+            android:label="@string/watchface_airforceru_name"
+            android:permission="android.permission.BIND_WALLPAPER"
+            android:taskAffinity="" >
+            <meta-data
+                android:name="android.service.wallpaper"
+                android:resource="@xml/watch_face" />
+            <meta-data
+                android:name="com.google.android.wearable.watchface.preview"
+                android:resource="@drawable/preview_raf3078_round" />
+            <meta-data
+                android:name="com.google.android.wearable.watchface.preview_circular"
+                android:resource="@drawable/preview_raf3078_round" />
+            <!-- wearable configuration activity -->
+            <meta-data
+                android:name="com.google.android.wearable.watchface.wearableConfigurationAction"
+                android:value="com.luna_78.raf3078.CONFIG" />
+            <!-- companion configuration activity -->
+            <meta-data
+                android:name="com.google.android.wearable.watchface.companionConfigurationAction"
+                android:value="com.luna_78.raf3078.CONFIG" />
+
+            <intent-filter>
+                <action android:name="android.service.wallpaper.WallpaperService" />
+                <category android:name="com.google.android.wearable.watchface.category.WATCH_FACE" />
+            </intent-filter>
+        </service>
+
+        <service android:name=".AWearListenerService" >
+            <intent-filter>
+                <action android:name="com.google.android.gms.wearable.BIND_LISTENER" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="com.luna_78.wear.watch.face.raf3078.WearConfigActivity"
+            android:label="@string/title_activity_wear_config" >
+            <intent-filter>
+                <action android:name="com.luna_78.raf3078.CONFIG" />
+                <category android:name="com.google.android.wearable.watchface.category.WEARABLE_CONFIGURATION" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!--com.luna_78.airforceru.CONFIG_AIRFORCERU-->
+
+    </application>
+
+
+
+
+
+</manifest>
